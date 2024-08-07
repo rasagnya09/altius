@@ -10,7 +10,7 @@ public class Main{
             a[i]=scan.nextInt();
         }
         //declaring the new array 
-        int[] dp=new dp[n];
+        int[] dp=new int[n];
         dp[0]=a[0];
         //kadane's algorithm
         for(int i=1;i<n;i++){
